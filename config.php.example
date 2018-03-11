@@ -1,0 +1,3 @@
+<?php
+  $gitHubSecret = "The secret from the github hook"
+?>

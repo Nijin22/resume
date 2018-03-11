@@ -3,4 +3,5 @@
   $downloadUrl = "https://raw.githubusercontent.com/Nijin22/resume/master/";
   $tmpFolder = "/var/www/html/lebenslauf.dennis-weber.info/tmp/";
   $finalFolder = "/var/www/html/lebenslauf.dennis-weber.info/rendered/";
+  $resumeToLatexUrl = "https://raw.githubusercontent.com/Nijin22/resumetolatex/master/resumetolatex";
 ?>

@@ -1,3 +1,6 @@
 <?php
-  $gitHubSecret = "The secret from the github hook"
+  $gitHubSecret = "The secret from the github hook";
+  $downloadUrl = "https://raw.githubusercontent.com/Nijin22/resume/master/";
+  $tmpFolder = "/var/www/html/lebenslauf.dennis-weber.info/tmp/";
+  $finalFolder = "/var/www/html/lebenslauf.dennis-weber.info/rendered/";
 ?>

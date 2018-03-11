@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+from Cheetah.Template import Template
+from lxml import objectify
+import sys
+
+# Static configuration
+TEMPLATE_NAME_PRE = './template_'
+TEMPLATE_NAME_POST = '.tex'
+FILLED_NAME_PRE = './filledTemplate_'
+FILLED_NAME_POST = '.tex'
+XML_FILENAME = './resume_data.xml'
+
+def replaceCharactersInChildren(object):
+    for child in object.getchildren():
+        if child.text is not None and "&" in child.text:
+            object[child.tag] = child.text.replace("&", "\\&");
+        else:
+            replaceCharactersInChildren(child) # recursively call the function for all objects
+    return object;
+
+for lang in sys.argv:
+    if 'resumetolatex' in lang:
+        # User called the program as 'python resumetolatex' - so the first parameter
+        # is this programs name (instead of a language)
+        # ==> Just skip this iteration
+        continue
+    print ('Creating documents for language: ' + lang)
+
+    # Read template file
+    filename =  TEMPLATE_NAME_PRE + lang + TEMPLATE_NAME_POST
+    templateFile = open(filename, 'r', encoding="utf-8")
+    templateString = templateFile.read()
+    templateFile.close()
+
+    # Read data
+    xmlFile = open(XML_FILENAME, mode='r', encoding='utf8')
+    xml = objectify.parse(xmlFile)
+
+    # Remove attributes with wrong language
+    # Find all elements which have a lang attribute, but where this lang != the current language
+    wrongLangNodes = xml.xpath("//*[@lang!='" + lang + "']")
+    for wrongNode in wrongLangNodes:
+        parent = wrongNode.getparent()
+        parent.remove(wrongNode)
+
+    # Generate python objects from XML
+    xmlData = xml.getroot()
+    xmlData = replaceCharactersInChildren(xmlData) # fix ampersands
+
+    # Fill template
+    template = Template(templateString, xmlData)
+    filledText = str(template)
+
+    # Write filled template
+    filename =  FILLED_NAME_PRE + lang + FILLED_NAME_POST
+    filledFile = open(filename, 'w', encoding="utf-8")
+    filledFile.write(filledText)
+    filledFile.close()
+
+    print("  " + lang + " done.")
+
+print("all done.")

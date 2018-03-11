@@ -1,0 +1,71 @@
+#encoding utf-8
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % 'sans' and 'roman' for font family
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage[utf8]{inputenc}                        % if you are not using xelatex ou lualatex, replace by the encoding you are using
+\usepackage[scale=0.75,a4paper]{geometry}
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+
+\setlength{\hintscolumnwidth}{3cm}
+%----------------------------------------------------------------------------------
+%            personal data
+%----------------------------------------------------------------------------------
+\firstname{$header.firstname}
+\familyname{$header.familyname}
+\address{${header.address.line1}${header.address.line2}}{$header.address.line3}{$header.address.line4}
+\mobile{$header.phone}
+\email{$header.email}
+\homepage{$header.website}
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+#for $entry in $education.iterchildren(tag='entry')
+\cventry{$entry.from \\ $entry.to}
+  {$entry.organisation.name}
+	{\newline $entry.organisation.address}
+	{}
+	{}
+	{\textbf{$entry.title}\\ $entry.detail}
+#end for
+
+\section{Professional Experience}
+#for $entry in $professionalExperience.iterchildren(tag='entry')
+\cventry{$entry.from \\ $entry.to}
+  {$entry.organisation.name}
+	{\newline $entry.organisation.address}
+	{}
+	{}
+	{\textbf{$entry.title}\\ $entry.detail}
+#end for
+
+\section{Language skills}
+#for $language in $languages.iterchildren(tag='language')
+\cvitemwithcomment{$language.name}{$language.level}{
+#if $hasattr(language, 'comment') then $language.comment else ''
+}
+#end for
+
+\section{Open Source Projects}
+#for $project in $projects.iterchildren(tag='project')
+\cvitem{$project.name}{$project.description}
+#end for
+
+\section{Computer Skills}
+#for $skillGroup in $skillGroups.iterchildren(tag='skillGroup')
+\cvitem{$skillGroup.name}{
+#for $skill in $skillGroup.skills.iterchildren(tag='skill')
+$skill.title $skill.detail
+\newline
+#end for
+}
+#end for
+
+\section{Other}
+\cvitem{Version of resumé}{\today\newline
+	Most recent version: \url{$linkToResume}}
+\end{document}

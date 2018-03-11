@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume>
+  <header>
+    <firstname>Dennis</firstname>
+    <familyname>Weber</familyname>
+    <address>
+      <line1>Kreuzinger Str. 52</line1>
+      <line2></line2>
+      <line3>78462 Konstanz</line3>
+      <line4 lang="en">Germany</line4>
+    </address>
+    <phone>+49 1523 8498 453</phone>
+    <email>dennis.weber123@gmail.com</email>
+    <website>www.nijin.org</website>
+    <image>./picture.jpg</image>
+  </header>
+  <personalData>
+    <birthdate>05.06.1993</birthdate>
+    <nationality>deutsch</nationality>
+    <martialStatus>ledig</martialStatus>
+  </personalData>
+  <professionalExperience>
+    <entry>
+      <from>2018-02</from>
+      <to>2018-08</to>
+      <organisation>
+        <name>ACTICO GmbH</name>
+        <address lang="de">Ziegelei 5, 88090 Immenstaad</address>
+        <address lang="en">Ziegelei 5, 88090 Immenstaad, Germany</address>
+      </organisation>
+      <title lang="de">Masterthesis</title>
+      <title lang="en">Master thesis</title>
+      <detail lang="de">Nutzen von Entwicklungsworkflows in der kollaborativen Modellentwicklung</detail>
+      <detail lang="en">Using software development workflows for collaborative model design</detail>
+    </entry>
+    <entry>
+      <from>2016-09</from>
+      <to>2017-09</to>
+      <organisation>
+        <name>ZF Friedrichshafen AG</name>
+        <address lang="de">Graf-von-Soden-Platz 1, 88046 Friedrichshafen</address>
+        <address lang="en">Graf-von-Soden-Platz 1, 88046 Friedrichshafen, Germany</address>
+      </organisation>
+      <title lang="de">Werkstudent IT (Produktionslogistik)</title>
+      <title lang="en">Production Logistics IT (part-time during university)</title>
+      <detail lang="de">Softwarenentwicklung für SAP mit ABAP</detail>
+      <detail lang="en">Software development for SAP with ABAP</detail>
+    </entry>
+    <entry>
+      <from>2016-03</from>
+      <to>2016-08</to>
+      <organisation>
+        <name>ZF Friedrichshafen AG</name>
+        <address lang="de">Graf-von-Soden-Platz 1, 88046 Friedrichshafen</address>
+        <address lang="en">Graf-von-Soden-Platz 1, 88046 Friedrichshafen, Germany</address>
+      </organisation>
+      <title lang="de">Bachelorthesis</title>
+      <title lang="en">Bachelor thesis</title>
+      <detail lang="de">„Identifizieren und Vereinheitlichen von Prozessduplikaten in manuellen Regressions-tests“, Note: 1,7</detail>
+      <detail lang="en">“Identification and Unification of Test Duplicates in Manual Regression Tests”, Grade: 1,7</detail>
+    </entry>
+    <entry>
+      <from>2014-09</from>
+      <to>2015-02</to>
+      <organisation>
+        <name>ZF Friedrichshafen AG</name>
+        <address lang="de">Graf-von-Soden-Platz 1, 88046 Friedrichshafen</address>
+        <address lang="en">Graf-von-Soden-Platz 1, 88046 Friedrichshafen, Germany</address>
+      </organisation>
+      <title lang="de">Praktikum IT (Markt &amp; Einkauf)</title>
+      <title lang="en">Internship IT (Market &amp; Purchasing)</title>
+      <detail lang="de">SAP Entwicklung mit ABAP, Entwicklung für BW-Exporte und MS Office, Performanceanalyse und Optimierung bestehender Programme</detail>
+      <detail lang="en">SAP development with ABAP, software development for business warehous exports and MS Office tools, performance analysis and optimization of custom programs</detail>
+    </entry>
+    <entry>
+      <from>2011-07</from>
+      <to>2016-07</to>
+      <organisation>
+        <name>Pacovis Deutschland GmbH</name>
+        <address lang="de">Schneckenhofengasse 3, 72581 Dettingen</address>
+        <address lang="en">Schneckenhofengasse 3, 72581 Dettingen, Germany</address>
+      </organisation>
+      <title>IT &amp; Reporting</title>
+      <detail lang="de">Stammdatenpflege, Analyse &amp; Reports, Administration Website, Schulungen im Bezug zur IT (MS Office, Sage Quantum)</detail>
+      <detail lang="en">Master data maintenance, analysis &amp; reporting, website management, providing training (MS Office, Sage Quantum)</detail>
+    </entry>
+  </professionalExperience>
+  <education>
+    <entry>
+      <from>2016-09</from>
+      <to lang="de">heute</to>
+      <to lang="en">today</to>
+      <organisation>
+        <name>Hochschule Konstanz Technik, Wirtschaft und Gestaltung</name>
+        <address lang="de">Brauneggerstr. 55, 78462 Konstanz</address>
+        <address lang="en">Brauneggerstr. 55, 78462 Konstanz, Germany</address>
+      </organisation>
+      <title lang="de">M. Sc. Informatik</title>
+      <title lang="en">M. Sc. Computer Science</title>
+      <detail lang="de">Geschäftsprozesse, Maschinelles Lernen, IT-Management, Führung, IT-Recht, Operations Management, Kryptologie</detail>
+      <detail lang="en">Business processes, machine learning, IT management, leadership, IT law (Germany), operation management, cryptology</detail>
+    </entry>
+    <entry>
+      <from>2017-09</from>
+      <to>2017-12</to>
+      <organisation>
+        <name>Clarkson University</name>
+        <address>8 Clarkson Ave., Potsdam, New York 13699, USA</address>
+      </organisation>
+      <title lang="de">Auslandssemester - M. Sc. Computer Science</title>
+      <title lang="en">Exchange Semester - M.Sc. Computer Science</title>
+      <detail>Computer Vision (A+), Automata Theory (A), Computer Algorithms (A)</detail>
+    </entry>
+    <entry>
+      <from>2012-10</from>
+      <to>2016-08</to>
+      <organisation>
+        <name>Hochschule Konstanz Technik, Wirtschaft und Gestaltung</name>
+        <address lang="de">Brauneggerstr. 55, 78462 Konstanz</address>
+        <address lang="en">Brauneggerstr. 55, 78462 Konstanz, Germany</address>
+      </organisation>
+      <title lang="de">B. Sc. Wirtschaftsinformatik</title>
+      <title lang="en">B. Sc. Business Computer Science</title>
+      <detail lang="de">Softwareentwicklung, Algorithmen, Datenbanken, Betriebssysteme, Mathematik, BWL, Geschäftsprozesse - Abschlussnote: 1,6</detail>
+      <detail lang="en">Software development, algorithms, databases, operating systems, math, business studies, business process management - Final grade: 1,6</detail>
+    </entry>
+    <entry>
+      <from>2009-01</from>
+      <to>2012-07</to>
+      <organisation>
+        <name>Ferdinand von Steinbeis Schule</name>
+        <address lang="de">Karlstraße 40, 72764 Reutlingen</address>
+        <address lang="en">Karlstraße 40, 72764 Reutlingen, Germany</address>
+      </organisation>
+      <title lang="de">Technisches Gymnasium</title>
+      <title lang="en">Technisches Gymnasium (Technical Grammar School)</title>
+      <detail lang="de">Elektrotechnik, Metalltechnik, Computertechnik - Abschlussnote: 1,9</detail>
+      <detail lang="en">Electrical Engineering, Metals Technology, Computer Science - Final grade: 1,9</detail>
+    </entry>
+  </education>
+  <languages>
+    <language>
+      <name lang="de">Deutsch</name>
+      <name lang="en">German</name>
+      <level lang="de">Muttersprache</level>
+      <level lang="en">Native speaker</level>
+    </language>
+    <language>
+      <name lang="de">Englisch</name>
+      <name lang="en">English</name>
+      <level lang="de">Verhandlungssicher</level>
+      <level lang="en">Fluent</level>
+      <comment lang="de">1 Semester in den USA</comment>
+      <comment lang="en">1 semester in the United States</comment>
+    </language>
+    <language>
+      <name lang="de">Französisch</name>
+      <name lang="en">French</name>
+      <level lang="de">Grundkenntnisse</level>
+      <level lang="en">Basic</level>
+    </language>
+  </languages>
+  <projects>
+    <project>
+      <name>LibreToDo</name>
+      <description lang="de">Freies Selbstorganisations-Tool -- Node.js, HTML, Javascript, Angular -- github.com/nijin22/libretodo-web</description>
+      <description lang="en">Free self-organisation tool -- Node.js, HTML, Javascript, Angular -- github.com/nijin22/libretodo-web</description>
+    </project>
+  </projects>
+  <skillGroups>
+    <skillGroup>
+      <name lang="de">Sprachen</name>
+      <name lang="en">Programming languages</name>
+      <skills>
+        <skill>
+          <title>Java</title>
+          <detail lang="de">(5 Jahre, begleitend zum Studium)</detail>
+          <detail lang="en">(5 years, during university)</detail>
+        </skill>
+        <skill>
+          <title>Javascript</title>
+          <detail lang="de">(5 Jahre, begleitend zum Studium)</detail>
+          <detail lang="en">(5 years, during university)</detail>
+        </skill>
+        <skill>
+          <title>Python</title>
+          <detail lang="de">(1 Jahr, für persönliche Projekte (wie dieser Lebenslauf!))</detail>
+          <detail lang="en">(1 year, for personal projects (like this resume!))</detail>
+        </skill>
+      </skills>
+    </skillGroup>
+    <skillGroup>
+      <name lang="de">Webtechnologien</name>
+      <name lang="en">Web technology</name>
+      <skills>
+        <skill>
+          <title>HTML &amp; CSS</title>
+          <detail></detail>
+        </skill>
+        <skill>
+          <title>Frameworks</title>
+          <detail>(JQuery, Bootstrap, Ninja, Angular)</detail>
+        </skill>
+      </skills>
+    </skillGroup>
+    <skillGroup>
+      <name lang="de">Weiteres</name>
+      <name lang="en">Other</name>
+      <skills>
+        <skill>
+          <title lang="de">Datenbankdesign und SQL</title>
+          <title lang="en">Database design and SQL</title>
+          <detail></detail>
+        </skill>
+        <skill>
+          <title lang="de">Softwaredesign, Requirements Engineering und Architektur</title>
+          <title lang="en">Software design, requirements engineering and architecture</title>
+          <detail></detail>
+        </skill>
+        <skill>
+          <title lang="de">Entwicklungswerkzeuge</title>
+          <title lang="en">Development tools</title>
+          <detail>Git, Eclipse, Atom, SublimeText</detail>
+        </skill>
+      </skills>
+    </skillGroup>
+  </skillGroups>
+  <linkToResume lang="de">http://lebenslauf.nijin.org</linkToResume>
+  <linkToResume lang="en">http://resume.nijin.org</linkToResume>
+</resume>

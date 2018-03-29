@@ -27,7 +27,7 @@
 #for $entry in $education.iterchildren(tag='entry')
 \cventry{$entry.from -- $entry.to}
   {$entry.organisation.name}
-	{\newline $entry.organisation.address}
+	{$entry.organisation.address}
 	{}
 	{}
 	{\textbf{$entry.title}\\ $entry.detail}

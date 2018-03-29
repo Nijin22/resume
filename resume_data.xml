@@ -25,8 +25,8 @@
       <to>2018-08</to>
       <organisation>
         <name>ACTICO GmbH</name>
-        <address lang="de">Ziegelei 5, 88090 Immenstaad</address>
-        <address lang="en">Ziegelei 5, 88090 Immenstaad, Germany</address>
+        <address lang="de">Immenstaad</address>
+        <address lang="en">Immenstaad, Germany</address>
       </organisation>
       <title lang="de">Masterthesis</title>
       <title lang="en">Master thesis</title>
@@ -38,8 +38,8 @@
       <to>2017-09</to>
       <organisation>
         <name>ZF Friedrichshafen AG</name>
-        <address lang="de">Graf-von-Soden-Platz 1, 88046 Friedrichshafen</address>
-        <address lang="en">Graf-von-Soden-Platz 1, 88046 Friedrichshafen, Germany</address>
+        <address lang="de">Friedrichshafen</address>
+        <address lang="en">Friedrichshafen, Germany</address>
       </organisation>
       <title lang="de">Werkstudent IT (Produktionslogistik)</title>
       <title lang="en">Production Logistics IT (part-time during university)</title>
@@ -51,8 +51,8 @@
       <to>2016-08</to>
       <organisation>
         <name>ZF Friedrichshafen AG</name>
-        <address lang="de">Graf-von-Soden-Platz 1, 88046 Friedrichshafen</address>
-        <address lang="en">Graf-von-Soden-Platz 1, 88046 Friedrichshafen, Germany</address>
+        <address lang="de">88046 Friedrichshafen</address>
+        <address lang="en">Friedrichshafen, Germany</address>
       </organisation>
       <title lang="de">Bachelorthesis</title>
       <title lang="en">Bachelor thesis</title>
@@ -64,8 +64,8 @@
       <to>2015-02</to>
       <organisation>
         <name>ZF Friedrichshafen AG</name>
-        <address lang="de">Graf-von-Soden-Platz 1, 88046 Friedrichshafen</address>
-        <address lang="en">Graf-von-Soden-Platz 1, 88046 Friedrichshafen, Germany</address>
+        <address lang="de">Friedrichshafen</address>
+        <address lang="en">Friedrichshafen, Germany</address>
       </organisation>
       <title lang="de">Praktikum IT (Markt &amp; Einkauf)</title>
       <title lang="en">Internship IT (Market &amp; Purchasing)</title>
@@ -77,8 +77,8 @@
       <to>2016-07</to>
       <organisation>
         <name>Pacovis Deutschland GmbH</name>
-        <address lang="de">Schneckenhofengasse 3, 72581 Dettingen</address>
-        <address lang="en">Schneckenhofengasse 3, 72581 Dettingen, Germany</address>
+        <address lang="de">Dettingen</address>
+        <address lang="en">Dettingen, Germany</address>
       </organisation>
       <title>IT &amp; Reporting</title>
       <detail lang="de">Stammdatenpflege, Analyse &amp; Reports, Administration Website, Schulungen im Bezug zur IT (MS Office, Sage Quantum)</detail>
@@ -92,8 +92,8 @@
       <to lang="en">today</to>
       <organisation>
         <name>Hochschule Konstanz Technik, Wirtschaft und Gestaltung</name>
-        <address lang="de">Brauneggerstr. 55, 78462 Konstanz</address>
-        <address lang="en">Brauneggerstr. 55, 78462 Konstanz, Germany</address>
+        <address lang="de">Konstanz</address>
+        <address lang="en">Konstanz, Germany</address>
       </organisation>
       <title lang="de">M. Sc. Informatik</title>
       <title lang="en">M. Sc. Computer Science</title>
@@ -105,7 +105,7 @@
       <to>2017-12</to>
       <organisation>
         <name>Clarkson University</name>
-        <address>8 Clarkson Ave., Potsdam, New York 13699, USA</address>
+        <address>Potsdam, New York, USA</address>
       </organisation>
       <title lang="de">Auslandssemester - M. Sc. Computer Science</title>
       <title lang="en">Exchange Semester - M.Sc. Computer Science</title>
@@ -116,8 +116,8 @@
       <to>2016-08</to>
       <organisation>
         <name>Hochschule Konstanz Technik, Wirtschaft und Gestaltung</name>
-        <address lang="de">Brauneggerstr. 55, 78462 Konstanz</address>
-        <address lang="en">Brauneggerstr. 55, 78462 Konstanz, Germany</address>
+        <address lang="de">Konstanz</address>
+        <address lang="en">Konstanz, Germany</address>
       </organisation>
       <title lang="de">B. Sc. Wirtschaftsinformatik</title>
       <title lang="en">B. Sc. Business Computer Science</title>
@@ -129,8 +129,8 @@
       <to>2012-07</to>
       <organisation>
         <name>Ferdinand von Steinbeis Schule</name>
-        <address lang="de">Karlstraße 40, 72764 Reutlingen</address>
-        <address lang="en">Karlstraße 40, 72764 Reutlingen, Germany</address>
+        <address lang="de">Reutlingen</address>
+        <address lang="en">Reutlingen, Germany</address>
       </organisation>
       <title lang="de">Technisches Gymnasium</title>
       <title lang="en">Technisches Gymnasium (Technical Grammar School)</title>

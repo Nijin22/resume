@@ -30,7 +30,7 @@
 
 \section{Berufliche Erfahrung}
 #for $entry in $professionalExperience.iterchildren(tag='entry')
-\cventry{$entry.from \\ $entry.to}
+\cventry{$entry.from -- $entry.to}
   {$entry.organisation.name}
 	{\newline $entry.organisation.address}
 	{}
@@ -40,7 +40,7 @@
 
 \section{Bildung}
 #for $entry in $education.iterchildren(tag='entry')
-\cventry{$entry.from \\ $entry.to}
+\cventry{$entry.from -- $entry.to}
   {$entry.organisation.name}
 	{\newline $entry.organisation.address}
 	{}

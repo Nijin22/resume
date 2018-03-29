@@ -163,8 +163,13 @@
   <projects>
     <project>
       <name>LibreToDo</name>
-      <description lang="de">Freies Selbstorganisations-Tool -- Node.js, HTML, Javascript, Angular -- github.com/nijin22/libretodo-web</description>
-      <description lang="en">Free self-organisation tool -- Node.js, HTML, Javascript, Angular -- github.com/nijin22/libretodo-web</description>
+      <description lang="de">Freies Selbstorganisations-Tool --- Node.js, HTML, Javascript, Angular --- github.com/nijin22/libretodo-web</description>
+      <description lang="en">Free self-organisation tool --- Node.js, HTML, Javascript, Angular --- github.com/nijin22/libretodo-web</description>
+    </project>
+    <project>
+      <name>P.easy PMS</name>
+      <description lang="de">Einfaches Projektmanagementsystem (enstanden als Teamprojekt während des Studiums) --- Ninja Framwork, Java, HTML, Javascript</description>
+      <description lang="en">Simple project management system (created as a tean project during university) --- Ninja Framwork, Java, HTML, Javascript</description>
     </project>
   </projects>
   <skillGroups>

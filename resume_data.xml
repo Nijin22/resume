@@ -21,6 +21,17 @@
   </personalData>
   <professionalExperience>
     <entry>
+      <from>2018-10</from>
+      <to lang="en">today</to>
+      <to lang="de">heute</to>
+      <organisation>
+        <name>SEITENBAU GmbH</name>
+        <address lang="de">Konstanz</address>
+        <address lang="en">Konstanz, Germany</address>
+      </organisation>
+      <title lang="de">Software Developer</title>
+    </entry>
+    <entry>
       <from>2018-02</from>
       <to>2018-08</to>
       <organisation>

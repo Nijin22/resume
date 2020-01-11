@@ -190,8 +190,8 @@
       <skills>
         <skill>
           <title>Java</title>
-          <detail lang="de">(5 Jahre, während des Studiums)</detail>
-          <detail lang="en">(5 years, during university)</detail>
+          <detail lang="de">(9 Jahre, während des Studiums und Arbeit)</detail>
+          <detail lang="en">(9 years, during university and job)</detail>
         </skill>
         <skill>
           <title>Javascript</title>
@@ -236,7 +236,7 @@
         <skill>
           <title lang="de">Entwicklungswerkzeuge</title>
           <title lang="en">Development tools</title>
-          <detail>Git, Eclipse, Atom, SublimeText</detail>
+          <detail>Git, IntelliJ, VS Code</detail>
         </skill>
       </skills>
     </skillGroup>

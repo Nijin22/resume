@@ -189,9 +189,9 @@
       <name lang="en">Programming languages</name>
       <skills>
         <skill>
-          <title>Java</title>
-          <detail lang="de">(9 Jahre, während des Studiums und Arbeit)</detail>
-          <detail lang="en">(9 years, during university and job)</detail>
+          <title>JVM (Java, Groovy)</title>
+          <detail lang="de">(11 Jahre, während des Studiums und Arbeit)</detail>
+          <detail lang="en">(11 years, during university and job)</detail>
         </skill>
         <skill>
           <title>Javascript</title>
